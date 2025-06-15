@@ -1,0 +1,1 @@
+Welcome to the official documentation for CreatorFundDAO  a decentralized platform enabling creators to fractionalize ownership of their intellectual property (IP), access funding, and share revenue streams with supporters, all transparently onchain.
