@@ -1,76 +1,46 @@
 ---
 
-
-# Tech Stack for TradeTalk
-
-
-
-A modular, decentralized commerce and negotiation platform leveraging XMTP, Ethereum, programmable agents, and onchain proofs for **secure, verifiable, wallet-native transactions**.
+# Core Tech Stack
 
 ---
-## Core Components
 
-| Layer            | Stack                                        | Purpose                                                   |
-|------------------|----------------------------------------------|----------------------------------------------------------|
-| **Frontend**     | **Next.js**                                  | Interface for browsing listings, creating offers, chat   |
-| **UI Design**    | TailwindCSS + shadcn/ui                      | Clean, modern interface for messaging and commerce flows  |
-| **Monorepo**      | Turborepo / Nx                                   |Unified management for frontend, API, agents     |
-| **Smart Contracts** | Solidity + Hardhat + Viem                  | Proof of Conversation generation, transaction logic       |
+##  Core Architecture Stack
 
-## Deployment & Hosting
+| **Component**            | **Technology / Protocol**               | **Purpose**                                                |
+|--------------------------|-----------------------------------------|-----------------------------------------------------------|
+| **Identity & Wallet**    | **Tomo** + TEE-based Wallet Server      | Social login → Secure wallet creation, address generation |
+| **IP Registration**      | **Story Protocol (ERC-721, ERC-6551)**  | Mint IP as NFT → Register → Deploy programmable IP Account |
+| **Metadata Storage**     | IPFS                          | Storage of NFT Metadata (Opensea Standard) + IP Metadata (Story Standard) |
+| **Token Bound Accounts** | ERC-6551                                | Wallet-like contract accounts bound to IP NFTs            |
+| **Governance Tokens**    | ERC-20                                  | DAO token for fractional IP ownership and governance      |
+| **DAO Governance**       | Snapshot / Custom Solidity DAO          | Voting, treasury management, licensing decision-making    |
+| **Monetization Modules** | Royalty Module + Licensing Module       | Royalty NFTs, Licensing fees, fractionalization, borrowing |
+| **Funding DAO Treasury** | Custom Smart Contracts                  | Manages royalties, DAO share allocations, disbursements   |
+| **Dispute Resolution**   | Story Dispute Modules                   | On-chain enforcement of infringement, freezing metadata   |
+| **Frontend Framework**   | Next.js + Tailwind CSS                  | User interface for creators, funders, DAO participants     |
+| **Blockchain Interaction** | Ethers.js / Wagmi                      | On-chain read/write interactions with smart contracts     |
+| **Wallet Connection**    | WalletConnect + RainbowKit              | Seamless multi-wallet UX                                  |
+| **Indexing Layer**       | The Graph                               | Querying onchain data (funding rounds, royalties, licenses) |
+| **AI Integrations**      | Tomo Modular Agents                     | IP validation, dynamic license pricing, proposal suggestions |
 
-| Layer            | Stack/Provider        | Purpose                          |
-|------------------|-----------------------|----------------------------------|
-| **Frontend**     | **Vercel**            | Global CDN, optimized for fast access |
-| **Smart Contracts** | **Base (EVM)**        | Onchain proof storage, contract execution     |
-| **CI/CD**        | GitHub Actions        | Automated builds and deployments  |
+---
 
-## Messaging & Communication
+##  Tools & Development Stack
 
-| Layer            | Stack/Protocol        | Purpose                                         |
-|------------------|-----------------------|------------------------------------------------|
-| **Messaging**    | **XMTP Protocol**     | Encrypted wallet-to-wallet conversations       |
-| **Proof Generation** | Hashing (SHA-256) + Solidity    | Verifiable, onchain Proof of Conversation     |
+- **Smart Contract Dev:** Hardhat / Foundry
+- **Frontend:** React (Next.js) + Tailwind CSS
+- **Wallet Integration:** Wagmi + RainbowKit
+- **File Storage:** IPFS
+- **Indexing:** The Graph Protocol
+- **Blockchain:** Base, Ethereum, Optimism, Polygon
 
-## Wallets & Identity
+---
 
-| Layer            | Stack/Protocol        | Purpose                                       |
-|------------------|-----------------------|-----------------------------------------------|
-| **Authentication** | CDP WalletConnect | Connect EVM-compatible wallets easily       |
-| **Identity Switching** | AgentKit + XMTP Contexts  | Switch between multiple personas/profiles   |
+##  Security & Privacy
 
-## Payments & Transactions
-
-| Layer             | Stack/Protocol       | Purpose                                      |
-|-------------------|----------------------|----------------------------------------------|
-| **Transaction Layer** | Base L2 + ERC-20 tokens | Fast, cheap settlement of payments         |
-| **Escrow/Future** | Future Integration | Future roadmap for escrow-enabled transactions |
-
-## Automation & Agents
-
-| Layer            | Stack/Tool            | Purpose                                     |
-|------------------|-----------------------|---------------------------------------------|
-| **Programmable Agents** | AgentKit         | Identity switching, automation, Proof orchestration  |
-| **AI Integration**  | LLM APIs  | Negotiation bots, summarization, recommendations  |
-
-## Analytics & Monitoring
-
-| Layer            | Stack/Tool            | Purpose                                      |
-|------------------|-----------------------|----------------------------------------------|
-| **App Analytics** | Plausible Analytics  | Privacy-first user behavior tracking        |
-| **Smart Contract Monitoring** | Tenderly + Hardhat | Debugging and monitoring of onchain components |
-
-## Onchain Proof & Verification
-
-| Layer            | Stack/Protocol        | Purpose                                       |
-|------------------|-----------------------|-----------------------------------------------|
-| **Hashing Algorithm** | SHA-256          | Generating unique content fingerprints       |
-| **Proof Storage** | Solidity Contracts (Base) | Immutable, verifiable Proof of Conversation |
-
-
-
-
-
-
+- **TEE (Trusted Execution Environment)** → Wallet Server protection
+- **Audited Smart Contracts** → Royalty, Licensing, DAO modules
+- **Metadata Hashing** → Immutability & infringement protection
+- **Optional ZK integrations** → For privacy-preserving creator identity (future)
 
 ---

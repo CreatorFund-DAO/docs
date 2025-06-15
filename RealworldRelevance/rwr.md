@@ -2,55 +2,53 @@
 
 # Real-World Relevance
 
-In the real world, informal deals often happen over chats with no clear proof or enforceability. TradeTalk brings verifiable trust to these conversations by turning agreements into cryptographically signed, onchain records. This is essential for freelancers, marketplaces, DAO contributors, and anyone making financial or service agreements online. It bridges the gap between casual negotiation and enforceable commitment.
+In today’s creator economy, millions of artists and innovators struggle to monetize their work fairly. CreatorFund introduces transparent IP ownership and revenue-sharing models, giving creators new ways to fund their projects, while allowing supporters to invest directly in the success of ideas they believe in.
+
+---
+## 1. Creators Struggle to Monetize Their IP
+
+** The Challenge:**  
+Millions of creators build valuable intellectual property but lack access to sustainable, fair monetization channels. Traditional platforms often capture most of the value.
+
+**CreatorFund Solves It With:**  
+- **Fractionalized IP ownership** → Turn creative works into programmable assets  
+- Built-in royalties and licensing powered by Story Protocol  
+- Community-driven funding and participation models
 
 ---
 
-## 1. Informal Deals Lack Verifiable Proof
+## 2. Fans Have No Stake in the Success of the Content They Love
 
 **The Challenge:**  
-In freelance work, peer-to-peer trading, and DAO collaborations, many agreements happen over casual chat with no verifiable proof leading to disputes or scams.
+Audiences fuel the growth of creators but rarely benefit financially or have ownership in the success of creative projects.
 
-**TradeTalk Solves It With:**  
-- **Proof of Conversation** → Immutable, onchain agreement records  
-- Cryptographic signatures by both parties  
-- Verifiable agreements that can resolve future disputes
+**CreatorFund Solves It With:**  
+- **Royalty tokens for IP** → Fans can hold a stake in future earnings  
+- IP-backed NFTs that unlock participation and rewards  
+- Align incentives between creators and communities
 
 ---
 
-## 2. Identity Confusion in Marketplace Transactions
+## 3. IP Rights Are Opaque and Hard to Track
 
 **The Challenge:**  
-Buyers and sellers often use the same identity across platforms, risking privacy loss or brand dilution when engaging in multiple roles.
+In the current system, intellectual property rights are fragmented, hard to verify, and difficult to enforce globally.
 
-**TradeTalk Solves It With:**  
-- **Wallet-based persona switching** → Use different onchain profiles for buyer, seller, or DAO roles  
-- Enhanced privacy, professionalism, and identity management  
-- Flexibility without sacrificing accountability
+**CreatorFund Solves It With:**  
+- **Onchain IP registration** via Story Protocol → Transparent, immutable proof of ownership  
+- Automated royalty flows with programmable licenses  
+- Verifiable provenance and remix permissions
 
 ---
 
-## 3. Trust Gaps in Decentralized Marketplaces
+## 4. Funding Creative Work Is Risky and Centralized
 
 **The Challenge:**  
-Without trusted intermediaries, onchain marketplaces struggle with ensuring fair, enforceable deals between strangers.
+Traditional creative financing relies on publishers, platforms, or intermediaries who often take disproportionate control or revenue share.
 
-**TradeTalk Solves It With:**  
-- **Agent-powered agreement finalization** directly inside chat  
-- Automation of metadata capture and onchain proofs  
-- Trustless negotiation flow built entirely in messaging
-
----
-
-## 4. Growing Demand for Verifiable, Peer-to-Peer Commerce
-
-**The Challenge:**  
-As crypto adoption rises, users expect secure, pseudonymous, yet verifiable transaction experiences native to Web3.
-
-**TradeTalk Solves It With:**  
-- End-to-end encrypted messaging via **XMTP**  
-- **Onchain proofs** baked into user experience  
-- Bridging casual negotiation with enforceable, onchain commitment
-
+**CreatorFund Solves It With:**  
+- **Decentralized creator funding rounds** → Backed by IP as collateral  
+- Community governance over creative direction and monetization  
+- Empower creators to retain ownership while accessing capital
 
 ---

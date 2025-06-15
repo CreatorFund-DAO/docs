@@ -1,46 +1,57 @@
+
+
 ---
 
-# Tokenomics for TradeTalk
+# Tokenomics for CreatorFund DAO
 
-TradeTalk introduces a native utility token, **$TALK**, designed to power platform utility, incentivize participation, and drive governance decisions within the ecosystem.
+CreatorFund DAO introduces its native utility and governance token, **\$CFD** (CreatorFund DAO Token), serving as the economic backbone of the protocol. \$CFD aligns the interests of creators, supporters, and the broader ecosystem to drive sustainable, community-owned growth in decentralized IP financing.
+
 ---
+
 ## Token Utility
 
-| Use Case                   | Purpose                                                              |
-|----------------------------|----------------------------------------------------------------------|
-| **Transaction Fees**       | Small fee on each successful transaction or Proof of Conversation generated. Can be partially burned to maintain scarcity. |
-| **Proof Generation**       | Users pay in $TALK to hash and store Proof of Conversation onchain.  |
-| **Premium Features**       | Unlock advanced features like priority listings, verified status, or advanced AI negotiation agents. |
-| **Staking for Escrow**     | Users stake $TALK to participate in onchain escrow for high-value trades. |
-| **Governance**             | Token holders propose and vote on protocol upgrades, fee structures, and treasury allocations. |
-| **Referral Rewards**       | Referrers receive a share of transaction fees in $TALK.             |
+| Use Case                      | Purpose                                                                                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Protocol Fees**             | Pay protocol fees on funding, licensing, and royalty distribution events. Partial burns maintain scarcity.   |
+| **Staking for Participation** | Creators stake \$CFD to launch funding campaigns, ensuring commitment and spam prevention.                   |
+| **Yield Boosts**              | IP-backed assets or participation in funding rounds can yield additional \$CFD rewards.                      |
+| **Governance**                | \$CFD holders propose and vote on key decisions: treasury allocations, funding strategies, and new features. |
+| **Creator Reputation**        | Stake \$CFD to increase discoverability and reputation weight on featured creator campaigns.                 |
+| **Partner Incentives**        | DAOs, protocols, and platforms integrating with CreatorFund receive \$CFD for ecosystem alignment.           |
+
+---
 
 ## Token Distribution
 
-| Category            | Allocation | Description                                           |
-|---------------------|------------|------------------------------------------------------|
-| **Community & Rewards** | 40%        | Incentives for early adopters, referrals, and usage mining. |
-| **Protocol Treasury** | 20%        | Used for future growth, partnerships, and bounties.  |
-| **Team & Founders**   | 15%        | Vested over 3-4 years to align long-term incentives. |
-| **Investors & Partners** | 15%        | For seed funding, strategic partners, and advisors.  |
-| **Liquidity & Market Making** | 10%        | Ensure liquidity for on/off-ramping $TALK.            |
-
-## Deflationary Mechanics
-
-- **Fee Burns**: A portion of transaction and proof-generation fees is burned.
-- **Limited Supply**: Fixed maximum supply to maintain value over time.
-
-## Governance Model
-
-| Mechanism              | Description                                       |
-|------------------------|--------------------------------------------------|
-| **Onchain Voting**     | Token-weighted votes using established governance modules (e.g., OpenZeppelin Governor). |
-| **Proposal Threshold** | Minimum stake required to submit a governance proposal. |
-| **DAO Treasury**       | Treasury governed by $TALK holders for protocol improvements, grants, and ecosystem growth. |
+| Category                           | Allocation | Description                                                                         |
+| ---------------------------------- | ---------- | ----------------------------------------------------------------------------------- |
+| **Community & Ecosystem Rewards**  | 45%        | For early adopters, contributor incentives, ecosystem grants, and liquidity mining. |
+| **Protocol Treasury**              | 20%        | Managed by DAO governance to fund growth, R\&D, and partnerships.                   |
+| **Team & Founders**                | 15%        | Vested over 4 years with 1-year cliff to align long-term incentives.                |
+| **Investors & Strategic Partners** | 15%        | For early contributors, seed investors, and aligned creator platforms.              |
+| **Liquidity Provision**            | 5%         | To bootstrap liquidity on DEXs and provide seamless \$CFD acquisition.              |
 
 ---
 
-$TALK fuels **trusted, decentralized commerce** by turning conversations into verifiable agreements and enabling a self-sustaining, community-governed protocol.
- 
+## Deflationary Mechanics
+
+* **Fee Burns**: A portion of protocol fees in \$CFD from licensing and royalty transactions is permanently burned.
+* **Limited Supply**: Fixed total supply of **1 billion \$CFD** to maintain long-term scarcity.
+* **Dynamic Fee Models**: DAO can adjust burn percentages via governance as ecosystem scales.
+
+---
+
+## Governance Model
+
+| Mechanism                       | Description                                                                                                                        |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Onchain Voting**              | Token-weighted voting using standard decentralized governance frameworks (e.g., OpenZeppelin Governor or Compound Governor Bravo). |
+| **Proposal Threshold**          | Minimum stake required to submit governance proposals (e.g., 50,000 \$CFD).                                                        |
+| **DAO Treasury**                | Protocol’s treasury managed by token holders for grants, development, creator support, and growth.                                 |
+| **Quadratic Voting (Optional)** | To prevent whales dominating decisions, quadratic voting models can be introduced via governance upgrades.                         |
+
+---
+
+\$CFD empowers creators and their communities to collaboratively build, fund, and grow the next generation of decentralized IP-driven economies—with transparent, participatory governance at the core.
 
 ---

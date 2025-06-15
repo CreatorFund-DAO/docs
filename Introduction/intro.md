@@ -2,11 +2,9 @@
 
 # Introduction
 
-TradeTalk is a secure onchain messaging marketplace built on XMTP and believes in Proof of Conversation.
-Buyers and sellers connect through encrypted chats, while an onchain agent facilitates negotiation, generates cryptographic proofs, and ensures agreements are finalized with verifiable signatures.
-Every deal comes with immutable proof onchain, eliminating disputes and establishing trust by default.
+CreatorFund DAO is a decentralized platform empowering creators to monetize their intellectual property (IP) through programmable NFTs and community-driven ownership. Leveraging Story Protocol’s on-chain IP standards and Tomo for seamless transactions, it enables licensing, fractional royalty sharing, and DAO-led governance. The goal is to unlock new revenue streams and give creators full control over their creative works.
 
-![Screenshot from 2025-06-13 15-46-08](https://github.com/user-attachments/assets/6872a4df-04d4-4e00-94d4-386c77d611ad)
+
 
 
 

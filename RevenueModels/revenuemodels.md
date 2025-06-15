@@ -3,87 +3,91 @@
 
 #  Revenue Models for TradeTalk
 
-TradeTalk generates revenue through a small protocol fee on finalized transactions recorded onchain. Additionally, premium features such as advanced identity management, priority message routing, or dispute resolution services can be offered as subscription tiers. Partnerships with marketplaces and DAOs can unlock custom integrations or white-label solutions for added monetization.
+CreatorFund DAO generates revenue through a small protocol fee on each successful IP-backed funding round or license transaction. Premium features—like enhanced royalty tracking, advanced analytics, or featured creator campaigns—can be offered via subscription tiers. Strategic partnerships with creator platforms, NFT marketplaces, or DAOs unlock additional monetization via integrations or white-label services.
 
 ---
 
-## 1. Proof Generation Fee (Core Mechanism)
+## 1. Protocol Fees on IP Transactions (Core Mechanism)
 
-Every finalized **Proof of Conversation** incurs a **small, fixed or percentage-based fee**, paid in USDC or ETH.
+Every **funding event**, **license mint**, or **royalty transaction** incurs a **small protocol fee**, payable in USDC, ETH, or the platform’s native token.
 
 ### Flow
-- Users negotiate → trigger `/finalize`
-- Proof generated → stored immutably on Base
-- Protocol automatically deducts fee before minting proof
+
+* Creator mints IP → launches funding or license sale
+* Investors/licensees participate → transaction completes
+* Protocol takes fee before distributing funds to creator
 
 ### Example Pricing
-| Action                  | Fee        |
-|-------------------------|------------|
-| Proof Generation        | 0.5% TXN   |
-| Premium Agreements      | $1 Flat    |
-| Bulk Proof Package (10) | $8         |
 
->  *Simple, predictable fees aligned to platform usage.*
+| Action               | Fee   |
+| -------------------- | ----- |
+| Funding Contribution | 1%    |
+| License Mint         | 0.5%  |
+| Royalty Disbursement | 0.25% |
+
+> *Aligns protocol growth with creator success.*
 
 ---
 
-## 2. Advanced Identity & Privacy Features (Pro Tier)
+## 2. Premium Creator & Investor Features (Subscription)
 
-TradeTalk lets users **switch wallets, pseudonyms, and create custom profiles**.
+Unlock advanced tools for creators & investors with **Pro subscriptions**.
 
 ### Features in Paid Tiers
-- Custom avatars & ENS display
-- Auto-switch wallets by chat context
-- Privacy shield → obfuscate wallet linkages
 
-| Tier     | Monthly Fee | Features                                           |
-|----------|-------------|----------------------------------------------------|
-| Free     | $0          | Standard profile switching                        |
-| Pro      | $7          | Advanced privacy, wallet context switching        |
-| Teams    | $25         | Shared personas for teams / DAO treasuries        |
+* Advanced royalty analytics
+* Featured placement for creator launches
+* Priority whitelisting for high-demand IP sales
+* Early access to new IP drops
 
->  *Privacy as a premium feature for pros and DAOs.*
+| Tier       | Monthly Fee | Features                                         |
+| ---------- | ----------- | ------------------------------------------------ |
+| Free       | \$0         | Basic funding and licensing                      |
+| Pro        | \$12        | Analytics, featured drops, early access          |
+| Enterprise | Custom      | Dedicated support, private IP vaults, API access |
 
----
-
-## 3. Smart Escrow & Dispute Resolution (Optional)
-
-Users can opt-in to **escrow contracts** with built-in dispute resolution agents.
-
-- Both parties deposit → locked until dispute window closes
-- Optional **third-party arbiters** → revenue share with protocol
-- Dispute filing incurs additional flat fee → partially refundable
-
-| Feature                | Fee          |
-|------------------------|--------------|
-| Smart Escrow           | 1% of TXN    |
-| Dispute Filing         | $5 flat fee  |
-| Arbiter Fee Split      | 80% to arbiter, 20% to protocol  |
-
->  *Creates a trust layer on top of conversational agreements.*
+> *Premium access for serious creators and IP investors.*
 
 ---
 
-## 4. B2B Licensing & White-Label Deployments
+## 3. IP Licensing Engine with Dynamic Fees
 
-Large marketplaces or DAOs can **embed TradeTalk** via **paid licensing** or white-label products.
+**Programmable IP licensing** allows dynamic fee structures for creators.
 
-- Revenue share or fixed monthly enterprise fee
-- API integrations, whitelabel dashboards, branded UX
+* Usage-based fees or subscription licenses
+* Dynamic pricing → bonding curves, auctions, limited editions
+* Platform takes small fee on license minting
 
->  *Powerful for freelance marketplaces, NFT platforms, and DAOs.*
+| Licensing Model         | Protocol Fee |
+| ----------------------- | ------------ |
+| Fixed License Fee       | 0.5%         |
+| Dynamic Auction License | 1%           |
+| Bulk Licensing Package  | Custom       |
+
+> *Flexible models to match creator business needs.*
 
 ---
 
-## 5. Affiliate Growth Engine
+## 4. B2B White-Label Solutions
 
-Anyone can become a TradeTalk affiliate → earn from every Proof generated by referred users.
+Offer **white-labeled CreatorFund deployments** for creator marketplaces, DAOs, or NFT platforms.
 
-| Method        | Payout        |
-|---------------|---------------|
-| Referral Link | 10% of fees   |
-| Partner DAOs  | Custom share  |
+* Fixed licensing fees or revenue-share model
+* API + SDK integrations for customized experiences
 
-> *Community-powered GTM (Go-to-Market) flywheel.*
+> *Tailored for platforms wanting IP financing tools under their own brand.*
+
+---
+
+## 5. Affiliate & Partner Ecosystem
+
+Drive adoption through **affiliate programs** and **DAO partnerships**.
+
+| Method         | Payout                                                |
+| -------------- | ----------------------------------------------------- |
+| Affiliate Link | 10% of protocol fees from referred creators/investors |
+| DAO Partners   | Custom shares depending on partnership scope          |
+
+> *Expand distribution through aligned creator and Web3 ecosystems.*
 
 ---

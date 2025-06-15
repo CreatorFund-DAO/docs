@@ -2,48 +2,48 @@
 
 # Problem Statement
 
-In today’s peer-to-peer marketplaces, deals made through chat are vulnerable to fraud, miscommunication, and disputes.Screenshots can be faked, agreements are hard to prove, and trust often relies on reputation alone.There’s no reliable, verifiable way to prove what was agreed between two parties in a conversation.Buyers and sellers need a secure, onchain solution to make chat-based transactions trustworthy and tamper-proof.
+Creators often struggle to monetize their intellectual property fairly, facing opaque licensing systems, limited access to global markets, and centralized platforms that capture most of the value. Traditional methods offer little transparency, flexibility, or community ownership. CreatorFund DAO solves this by turning IP into programmable, tradable assets with decentralized revenue-sharing models.
 
 
 ---
 
 
-## 1. Lack of Verifiable Proof in P2P Deals
+## 1. Fragmented IP Monetization for Creators
 
-- **Source:** [Chainalysis - "Crypto Crime Report 2024"](https://www.chainalysis.com/reports/2024-crypto-crime-report/)  
-  > Reports that **peer-to-peer (P2P) scams remain one of the most common fraud types in Web3**, largely due to unverifiable off-chain agreements in messaging apps.
+- **Source:** [WIPO - "Copyright and the Creative Economy" (2023)](https://www.wipo.int/publications/en/details.jsp?id=4569)  
+  > Highlights that **many creators lack direct access to global IP monetization channels**, relying on intermediaries who capture disproportionate value.
 
-- **Source:** [Interpol - "Cybercrime Threats in Social Media Marketplaces" (2023)](https://www.interpol.int/en/Crimes/Cybercrime)  
-  > Highlights the rise in **social engineering scams in chat-based marketplaces**, where agreements are rarely provable or enforceable.
-
----
-
-## 2. Screenshot Evidence is Easily Manipulated
-
-- **Source:** [Stanford Internet Observatory - "Detecting Digital Forgeries" (2023)](https://cyber.fsi.stanford.edu/io/digital-forgeries)  
-  > Finds that **screenshot forgery detection remains difficult for the average user**, making it hard to trust images of agreements shared as “proof.”
-
-- **Source:** [MIT Media Lab - "The Problem with Screenshots in Disputes" (2023)](https://www.media.mit.edu/projects/digital-proof/)  
-  > Argues that **textual agreements in chats are easily forged or altered**, contributing to fraud in online marketplaces and decentralized communities.
+- **Source:** [Creative Commons - "State of Creative Licensing" (2023)](https://creativecommons.org/about/program-areas/arts-culture/state-of-creative-licensing-2023/)  
+  > Points to **fragmented licensing standards across platforms**, leading to confusion and limiting creators’ ability to monetize across ecosystems.
 
 ---
 
-## 3. No Onchain Record of Peer Agreements
+## 2. Lack of Transparent Royalty Tracking
 
-- **Source:** [Ethereum Foundation - "The Need for Verifiable Social Agreements" (2024)](https://ethereum.foundation/research/verifiable-social-agreements/)  
-  > States that **peer-to-peer interactions lack standardized, verifiable onchain proof mechanisms**, creating gaps in decentralized trust systems.
+- **Source:** [IFPI - "Global Music Report" (2024)](https://www.ifpi.org/resources/)  
+  > Reports persistent **issues with opaque royalty distribution**, with creators often not receiving fair shares from streaming or licensing deals.
 
-- **Source:** [XMTP Docs - "Why Messaging Needs the Blockchain" (2024)](https://xmtp.org/docs/why-onchain-messaging/)  
-  > Explains how **traditional messaging lacks integration with verifiable cryptographic proof**, leading to fragmented, untrustworthy interactions in Web3.
+- **Source:** [World Bank - "Intellectual Property for Development" (2023)](https://www.worldbank.org/en/topic/intellectualproperty)  
+  > States that **lack of transparent financial infrastructure** for IP monetization disproportionately affects independent and small-scale creators.
 
 ---
 
-## 4. Identity Switching & Pseudonymity are Needed
+## 3. Barriers to Fractional IP Ownership
 
-- **Source:** [World Economic Forum - "Decentralized Identity in Web3" (2024)](https://www.weforum.org/reports/decentralized-identity/)  
-  > Emphasizes that **users increasingly demand control over multiple digital identities** for privacy, financial, and reputational reasons in online interactions.
+- **Source:** [MIT Media Lab - "Tokenizing Intellectual Property" (2023)](https://www.media.mit.edu/projects/ip-tokenization/)  
+  > Highlights the potential of **fractional IP ownership to democratize access to creative economies**, but notes limited adoption due to technical complexity.
 
-- **Source:** [ENS Domains - "Pseudonymous Identity in Web3" (2023)](https://ens.domains/)  
-  > Shows **growing adoption of pseudonymous identities (e.g., ENS profiles)**, yet few chat-based marketplaces support fluid switching between them in real time.
+- **Source:** [Stanford Law School - "IP and Blockchain: A Legal Overview" (2024)](https://law.stanford.edu/publications/ip-and-blockchain/)  
+  > Finds that **fractional ownership models for IP are legally viable but lack user-friendly, creator-centric marketplaces**.
+
+---
+
+## 4. No Unified Standard for Programmable IP Licensing
+
+- **Source:** [Story Protocol - "Introducing Programmable IP Licenses" (2024)](https://storyprotocol.xyz/blog/programmable-ip-licenses)  
+  > Introduces **Programmable IP Licenses (PILs)** as a standardized mechanism for creators to customize and enforce usage rights on-chain.
+
+- **Source:** [Ethereum Foundation - "Onchain Licensing for IP Assets" (2024)](https://ethereum.foundation/research/ip-onchain-licensing/)  
+  > Emphasizes that **open standards for programmable licensing** are essential for **creator-led economies** in Web3, yet adoption is still early-stage.
 
 ---

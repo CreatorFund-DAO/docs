@@ -2,23 +2,23 @@
 
 # Future Enhancements: Considerations for Scaling
 
---- 
+---
 
-As TradeTalk evolves into a global decentralized marketplace for verified, onchain conversations and commerce, the following enhancements can further drive scalability, trust, and user engagement:
+As CreatorFund DAO evolves into a fully decentralized platform for IP financing, monetization, and creator-led economies, the following enhancements can further drive **scalability, liquidity, and ecosystem impact**:
 
 ---
 
-| Layer                     | Description                                                                                           |
-|---------------------------|-------------------------------------------------------------------------------------------------------|
-| **Escrow Payment Layer**  | Integrate optional onchain escrow for high-value transactions, providing additional assurance for buyers and seller |
-| **Cross-Chain Messaging & Payments** | Enable interaction across multiple chains (e.g., Base, Ethereum, Polygon), allowing users to transact in their preferred ecosystems.       |
-| **Automated Dispute Resolution** | Build DAO-governed or agent-assisted dispute resolution systems leveraging Proof of Conversation for fair settlements.   |
-| **AI Negotiation Assistants** | Offer AI-powered agents to help users summarize chats, draft offers, or suggest negotiation tactics within the conversation.                   |
-| **Referral & Affiliate Rewards** | Introduce onchain referral systems to incentivize network growth, with programmable commission splits.  |
-| **Programmable Persona Marketplace** | Launch a marketplace where users can create, sell, or rent unique AI personas to negotiate or represent them in specific domains.           |
-| **Integration with Onchain Identity Frameworks** | Partner with emerging decentralized identity protocols (e.g., Lens, ENS Profiles) for richer identity layers.  |
+| Layer                                                 | Description                                                                                                                                   |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **IP-Backed Lending Markets**                         | Integrate with onchain lending protocols to allow creators to borrow against staked or fractionalized IP assets.                              |
+| **Cross-Chain Funding Support**                       | Enable IP fundraising and royalty tokenization across multiple chains (e.g., Ethereum, Optimism, Polygon, Zora Network).                      |
+| **Automated Licensing Engines**                       | Deploy programmable licensing hooks that automatically route revenues to stakeholders based on dynamic legal/royalty frameworks.              |
+| **Creator Reputation Graphs**                         | Build decentralized reputation graphs for creators based on licensing history, royalties earned, and community participation.                 |
+| **Community Launchpads**                              | Launch sub-DAOs or creator-specific launchpads where communities can crowdfund new IP projects with tailored funding terms.                   |
+| **Integration with Streaming & Publishing Platforms** | Allow direct IP monetization from creator content streamed or sold on-chain through integrations with music, video, and publishing protocols. |
+| **Onchain Dispute & Infringement Resolution**         | Introduce DAO-governed or oracle-assisted mechanisms for settling IP infringement disputes fairly and transparently.                          |
+| **AI-Enhanced IP Valuation Tools**                    | Offer AI-driven valuation models to help creators and backers estimate the potential earnings or market value of specific IP assets.          |
 
 ---
 
-This keeps it focused, forward-looking, and aligned with TradeTalk’s core vision.
----
+These enhancements ensure CreatorFund DAO scales from a funding protocol into a **composable, creator-owned infrastructure for decentralized creative economies.**
