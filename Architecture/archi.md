@@ -2,6 +2,7 @@
 
 # Architecture Diagram
 
+![Screenshot from 2025-06-15 11-41-48](https://github.com/user-attachments/assets/b0d5b53a-aac0-4ed7-a653-e6b97505b2ee)
 
 
 
